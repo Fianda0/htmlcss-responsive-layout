@@ -3,3 +3,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex {
+    display: flex;
+}
+
+.pdd-1 {
+    padding: 1rem;
+}
+
+body {
+    background-color: orange;
+}
+
+
+/* header selector  +++++++++++++++++++++++++++++++++++++ */
+
+header {
+    background-color: red;
+}
+
+nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* main selector  ++++++++++++++++++++++++++++++++++++++++ */
+
+.container {
+    width: 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card-big {
+    background-color: blue;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card-little {
+    background-color: aqua;
+    width: 100%;
+}
+
+.cont-element {
+    width: 100%;
+    background-color: white;
+}
+
+.cont-img {
+    width: 100%;
+    background-color: yellow;
+}
+
+/* .card-big {
+    background-color: blue;
+    width: calc(100% / 3 - 2rem + 100% / 3);
+}
+
+.card-little {
+    background-color: aqua;
+    width: calc(100% / 3 - 2rem);
+
+} */
