@@ -88,3 +88,8 @@ nav {
     background-color: violet;
     width: 100%;
 }
+
+/* footer selector ++++++++++++++++++++++++++++++ */
+footer {
+    background-color: #222;
+}
