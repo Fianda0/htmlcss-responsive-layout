@@ -38,7 +38,9 @@ nav {
 }
 
 .boxed {
+    padding: 1rem;
     width: 100%;
+    margin: auto;
     flex-wrap: wrap;
 }
 
@@ -77,4 +79,9 @@ nav {
 .content {
     width: 100%;
     background-color: purple;
+}
+
+.profile {
+    background-color: violet;
+    width: 100%;
 }
