@@ -12,6 +12,10 @@
     padding: 1rem;
 }
 
+.gap-1 {
+    gap: 1rem;
+}
+
 body {
     background-color: orange;
     max-width: 1400px;
@@ -33,7 +37,6 @@ nav {
 
 .container {
     width: 100%;
-    gap: 2rem;
     flex-wrap: wrap;
 }
 
