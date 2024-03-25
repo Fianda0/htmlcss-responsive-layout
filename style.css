@@ -13,7 +13,7 @@
 }
 
 .gap-1 {
-    gap: 1rem;
+    row-gap: 1rem;
 }
 
 body {
@@ -45,6 +45,7 @@ nav {
     width: 100%;
     margin: auto;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card-big {
@@ -53,10 +54,13 @@ nav {
     flex-wrap: wrap;
 }
 
+
 .card-little {
     background-color: aqua;
     width: 100%;
 }
+
+
 
 .cont-element {
     width: 100%;
@@ -68,16 +72,6 @@ nav {
     background-color: yellow;
 }
 
-/* .card-big {
-    background-color: blue;
-    width: calc(100% / 3 - 2rem + 100% / 3);
-}
-
-.card-little {
-    background-color: aqua;
-    width: calc(100% / 3 - 2rem);
-
-} */
 
 .content {
     width: 100%;
@@ -92,4 +86,30 @@ nav {
 /* footer selector ++++++++++++++++++++++++++++++ */
 footer {
     background-color: #222;
+}
+
+
+@media screen and (min-width:480px) {
+
+    body {
+        background-color: green;
+    }
+
+    .tablet .card-little {
+        background-color: aqua;
+        width: calc(100% / 2 - 0.5rem);
+    }
+
+
+    .card-little {
+        background-color: aqua;
+        width: calc(100% / 3 - 0.5rem);
+    }
+
+    .card-big {
+        background-color: blue;
+        width: calc(100% / 3 + 100% / 3 - 0.5rem);
+    }
+
+
 }
