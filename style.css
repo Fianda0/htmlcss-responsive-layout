@@ -75,7 +75,6 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: orange;
     max-width: 1600px;
     margin: 0 auto;
     line-height: 2rem;
@@ -132,6 +131,7 @@ nav {
 .card-big {
     width: 100%;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 
@@ -278,16 +278,20 @@ nav {
 
 /* footer selector ++++++++++++++++++++++++++++++ */
 footer {
+    font-size: 1rem;
+    text-align: center;
     background-color: #222;
+    color: white;
+}
+
+footer a {
+    color: #9792e4;
 }
 
 /* tablet layout */
 
 @media screen and (min-width:600px) {
 
-    body {
-        background-color: green;
-    }
 
     .tablet .card-little {
         width: calc(100% / 2 - 0.5rem);
@@ -325,10 +329,6 @@ footer {
 /* desktop layout */
 @media screen and (min-width:1200px) {
 
-    body {
-        background-color: rgb(0, 124, 128);
-    }
-
     nav {
         width: 60%;
         margin: auto;
@@ -343,12 +343,25 @@ footer {
     }
 
     .tablet .card-little {
-        background-color: aqua;
         width: calc(100% / 3 - 0.5rem);
     }
 
     .desktop .boxed {
         width: 40%;
+    }
+
+    .big-element,
+    .big-img {
+        width: 50%;
+    }
+
+    .card-big img {
+        width: 100%;
+    }
+
+    .big-img img {
+        position: absolute;
+        bottom: 0;
     }
 
 
