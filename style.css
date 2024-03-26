@@ -74,6 +74,7 @@ img {
 h2 {
     font-size: 3rem;
     padding: 3rem 0;
+    line-height: normal;
 }
 
 
@@ -102,7 +103,7 @@ nav {
 }
 
 .boxed {
-    padding: 1rem;
+    padding: 2rem;
     width: 100%;
     margin: auto;
     flex-wrap: wrap;
@@ -119,7 +120,6 @@ nav {
 .card-little {
     background-color: #b5ddff;
     width: 100%;
-    text-align: center;
 }
 
 .text-card {
@@ -142,6 +142,7 @@ nav {
     color: #0084fd;
     font-size: 1.5rem;
     font-weight: bold;
+    line-height: normal;
 }
 
 .download {
@@ -164,6 +165,7 @@ nav {
 .title-planning {
     font-size: 2rem;
     font-weight: bold;
+    line-height: normal;
 }
 
 .arrow {
@@ -174,6 +176,7 @@ nav {
 .title-violet {
     color: #9792e4;
     font-size: 3rem;
+    line-height: normal;
 }
 
 .profile {
@@ -196,6 +199,33 @@ nav {
 
 .profile-text {
     width: 100%;
+}
+
+.tablet h2 {
+    text-align: center;
+}
+
+.tablet .card-little {
+    background-color: white;
+}
+
+.n-card {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #9792e4;
+}
+
+.sott-title {
+    color: #9792e4;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.more {
+    background-color: #9792e4;
+    padding: 0.5rem 2rem;
+    color: white;
 }
 
 /* footer selector ++++++++++++++++++++++++++++++ */
@@ -239,6 +269,7 @@ footer {
     .profile-text {
         width: 70%;
     }
+
 
 
 }
