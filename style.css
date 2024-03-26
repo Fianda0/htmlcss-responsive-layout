@@ -44,6 +44,11 @@
     background-color: #9792e4;
 }
 
+.bck-azure {
+    background-color: #b5ddff;
+
+}
+
 .c-black {
     color: black;
 }
@@ -54,6 +59,10 @@
 
 .align-center {
     text-align: center;
+}
+
+.p-relative {
+    position: relative;
 }
 
 body {
@@ -111,14 +120,12 @@ nav {
 }
 
 .card-big {
-    background-color: #b5ddff;
     width: 100%;
     flex-wrap: wrap;
 }
 
 
 .card-little {
-    background-color: #b5ddff;
     width: 100%;
 }
 
@@ -227,6 +234,21 @@ nav {
     padding: 0.5rem 2rem;
     color: white;
 }
+
+.about img {
+    width: 50%;
+}
+
+.p-relative i {
+    font-size: 4rem;
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    color: #9792e4;
+}
+
+
+
 
 /* footer selector ++++++++++++++++++++++++++++++ */
 footer {
