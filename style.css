@@ -12,6 +12,10 @@
     padding: 1rem;
 }
 
+.pdd-5 {
+    padding: 5rem;
+}
+
 .pdd-btm-1 {
     padding-bottom: 1rem;
 }
@@ -39,6 +43,12 @@ body {
 img {
     width: 100%;
     display: block;
+    object-fit: contain;
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 3rem 0;
 }
 
 
@@ -124,6 +134,8 @@ nav {
 .content {
     width: 100%;
     background-color: #9792e4;
+    color: white;
+    padding: 2rem;
 }
 
 .profile {
