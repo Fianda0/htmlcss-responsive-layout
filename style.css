@@ -32,12 +32,37 @@
     border-radius: 20px;
 }
 
+.circol {
+    border-radius: 50%;
+}
+
+.bck-white {
+    background-color: white;
+}
+
+.bck-violet {
+    background-color: #9792e4;
+}
+
+.c-black {
+    color: black;
+}
+
+.c-white {
+    color: white;
+}
+
+.align-center {
+    text-align: center;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: orange;
     max-width: 1600px;
     margin: 0 auto;
-    line-height: 1.5rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
 }
 
 img {
@@ -133,13 +158,43 @@ nav {
 
 .content {
     width: 100%;
-    background-color: #9792e4;
-    color: white;
     padding: 2rem;
 }
 
+.title-planning {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.arrow {
+    background-color: #9792e4;
+    font-size: 1.5rem;
+}
+
+.title-violet {
+    color: #9792e4;
+    font-size: 3rem;
+}
+
 .profile {
-    background-color: violet;
+    background-color: #9792e4;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    width: 50%;
+}
+
+.profile-img img {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-text {
     width: 100%;
 }
 
@@ -171,6 +226,18 @@ footer {
 
     .card-big img {
         width: 50%;
+    }
+
+    .profile {
+        flex-direction: row;
+    }
+
+    .profile-img {
+        width: 30%;
+    }
+
+    .profile-text {
+        width: 70%;
     }
 
 
